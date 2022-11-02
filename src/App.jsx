@@ -8,7 +8,7 @@ export default function App() {
   return (
     <div>
       <Navbar />
-      <section>
+      <div className="posts">
         {data.map(entry => {
           return (
             <>
@@ -20,7 +20,7 @@ export default function App() {
           );
         })}
 
-      </section>
+      </div>
     </div>
   );
 }
